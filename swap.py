@@ -1,0 +1,10 @@
+a=int(input("enter a number:;"))
+b=int(input("enter a number:;"))
+# temp=a
+# a=b
+# b=temp
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
