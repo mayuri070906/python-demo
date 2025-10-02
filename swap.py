@@ -8,4 +8,4 @@ b=int(input("enter a number:;"))
 # a=a-b
 (a,b)=(b,a)
 print("a=",a)
-# print("b=",b)
+print("b=",b)
