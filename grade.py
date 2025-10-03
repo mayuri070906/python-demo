@@ -7,3 +7,5 @@ elif (mark>=50 and mark<=74):
     print("grade=C")
 else:
     print("Fail")
+
+    
