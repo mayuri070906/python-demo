@@ -27,7 +27,16 @@
 
 # str3="      "
 # print(str3.isspace())
-str4="Myportal.Com"
-print(str4.istitle())
+# str4="Myportal.Com"
+# print(str4.istitle())
 
-print(str4.swapcase())
+# print(str4.swapcase())
+
+# name="mayuri"
+# age=20
+# place="jath"
+dict={"name":"mayuri",
+      "age":"20"}
+print("my name is {name},I am {age} years old.....".format_map(dict))
+
+
