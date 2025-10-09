@@ -35,8 +35,19 @@
 # name="mayuri"
 # age=20
 # place="jath"
-dict={"name":"mayuri",
-      "age":"20"}
-print("my name is {name},I am {age} years old.....".format_map(dict))
+# dict={"name":"mayuri",
+#       "age":"20"}
+# print("my name is {name},I am {age} years old.....".format_map(dict))
+
+d="   my name is mayuri and i am studing in computer science and engineering   "
+print(d.center(100,"#"))
+
+print(d.strip())
+print(d.rstrip())
+print(d.lstrip())
+print(d.ljust(100,"%"))
+print(d.rjust(100,"%"))
+print(d.zfill(100))
+
 
 
